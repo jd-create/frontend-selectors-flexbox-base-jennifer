@@ -1,3 +1,52 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+/*Opdracht 1*/
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;}
+
+/*!*Opdracht 2*!*/
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*!*Opdracht 3*!*/
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.three ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 350px;
+
+
+}
+
+/*Opdracht 4*/
+
+ form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 400px;
+     margin-left: 300px;
+     margin-right: 300px;
+     margin-top: 20px;
+ }
+
+/*Opdracht 5*/
+.five {
+display: block;
+    flex-wrap: wrap;
+
+
+}
